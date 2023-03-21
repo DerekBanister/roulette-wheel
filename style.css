@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#canvas {
+    display: flex;
+    justify-content: center;
+}
+
+#spin {
+    height: 50px;
+    width: 50px;
+    text-decoration: underline;
+    background-color: gold;
+
+}
+
+#spin:hover {
+    opacity: 0.7;
+    cursor: crosshair;
+}
